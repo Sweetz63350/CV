@@ -1,0 +1,41 @@
+.profil{
+    width: 250px;
+    height: 300px;
+    box-sizing: border-box;
+    background-color: black;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.photo{
+    box-sizing: border-box;
+    background-color: black;
+    padding: 5px;
+}
+
+div {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background: linear-gradient(black, lightgrey);
+}
+
+.CV {
+    height: 800px;
+    
+}
+
+@media screen and (max-width: 1200px) {
+    
+    .CV {
+        height: 600px;
+    }
+
+    .photo {
+        width: 300px;
+    }
+}
